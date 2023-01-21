@@ -13,6 +13,7 @@ class Response
 
     public function __construct($httpCode, $content, $contentType = 'text/html')
     {
+        // constructor
         $this->httpCode = $httpCode;
         $this->content = $content;
         $this->setContentType($contentType);
