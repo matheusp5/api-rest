@@ -1,6 +1,5 @@
 <?php
 
-
 class Response
 {
     private $httpCode = 200;
@@ -45,3 +44,5 @@ class Response
         }
     }
 }
+
+?>
