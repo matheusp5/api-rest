@@ -6,8 +6,6 @@ class Rest
 {
     /**
      * @var array|array[]
-     * Dados vindos do banco de dados...
-     * Para nao se estender muito
      */
     public static array $data = [
         1 => [
