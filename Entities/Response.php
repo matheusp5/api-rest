@@ -24,10 +24,12 @@ class Response
         $this->addHeader('Content-Type', $contentType);
     }
 
-    public function addHeader($key, $value) {
+    // add request headers
+    public function addHeader($key, $value) { 
         $this->headers[$key] = $value;
     }
 
+    // get headers and add
     private function sendHeaders() {
         http_response_code($this->httpCode);
         foreach ($this->headers as $header => $value) {
