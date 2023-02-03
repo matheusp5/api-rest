@@ -8,12 +8,12 @@ class Rest
      * @var array|array[]
      */
     public static array $data = [
-        1 => [
+        1 => [ // ?id=1
             "ID" => 1,
             "Username" => "Mxtheuz",
             "Name" => "Matheus"
         ],
-        2 => [
+        2 => [ // ?id=2
             "ID" => 2,
             "Username" => "Mary",
             "Name" => "Maria"
