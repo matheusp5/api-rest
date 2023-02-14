@@ -8,4 +8,3 @@ if(isset($_GET['id'])) {
 }
 throw new Exception("Requested parameters not found");
 
-?>
